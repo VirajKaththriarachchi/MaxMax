@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pyramidwillieams.baymax">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CoughActivity" />
+        <activity android:name=".Lessthan2" />
+        <activity android:name=".Coughmorethan2weeks" />
+        <activity android:name=".Productivecough" />
+        <activity android:name=".Nonproductivecough" />
+        <activity android:name=".ChestPain" />
+        <activity android:name=".Fever" />
+        <activity android:name=".Shortnessofbreath" />
+        <activity android:name=".CentralChestPain" />
+        <activity android:name=".SideChestPain" />
+        <activity android:name=".Feverandshortness" />
+        <activity android:name=".Youshould" />
+        <activity android:name=".Selecttheother" />
+        <activity android:name=".Lossofweight" />
+        <activity android:name=".Lossofappetite" />
+        <activity android:name=".Shortnessbreath" />
+        <activity android:name=".Wheezing" />
+        <activity android:name=".Lossweight1" />
+        <activity android:name=".Lossappetite1" />
+        <activity android:name=".Shortnessbreath1" />
+        <activity android:name=".Wheezing1"></activity>
+    </application>
+
+</manifest>
